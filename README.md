@@ -69,3 +69,18 @@ git lfs track "*.zip"
 5. **Clone Verification**: Cloned repo on another system to validate zip file download
 
 ---
+
+## **🚀 How to Run**
+
+### Q1. CalculatorPlus App
+Navigate to the **CalculatorPlus** directory and run:
+```bash
+python app.py
+```
+
+### Q2. Large binary file with Git FFS
+1. **Checkout branch** : `lfs`
+2. Navigate to the **LFS** directory 
+3. Able to find **Large binary file** as *testFile.zip*
+
+---
