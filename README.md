@@ -54,3 +54,18 @@ def divide(self, a, b):
 17.  **Release Created**: Tagged as `v2.0`
 
 ---
+
+### **Q2: Git LFS Integration**
+#### 🔨 Steps Followed:
+
+1. **Created Branch**: `lfs`
+2. **Configured Git LFS**:
+```bash
+git lfs install
+git lfs track "*.zip"
+```
+3. **Added Large File**: Uploaded a file >200MB (e.g., testFile.zip)
+4. **Committed & Pushed**: Ensured LFS tracked file properly
+5. **Clone Verification**: Cloned repo on another system to validate zip file download
+
+---
