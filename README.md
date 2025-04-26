@@ -70,6 +70,43 @@ git lfs track "*.zip"
 
 ---
 
+### **Q3: Geometry Calculator with Git Stash**
+#### 🔨 Steps Followed:
+#### 🟠 Circle Area Feature
+
+1. **Created branch**: `feature/circle-area`
+2. **Began implementing**: `calculate_circle_area` function
+3. **Stashed Incomplete Work**:
+```bash
+git stash
+```
+4. **Verified working directory clean**
+
+#### 🟡 Rectangle Area Feature
+
+5. **Created branch**: `feature/rectangle-area`
+6. **Began implementing**: `calculate_rectangle_area` function
+7. **Stashed Incomplete Work**
+8. **Verified working directory clean**
+
+#### 🟢 Completed Features
+
+9. **Switched back to** `feature/circle-area`
+10. **Retrieved stash & completed circle area code**
+11. **Committed & pushed**
+12. **Switched to** `feature/rectangle-area`
+13. **Retrieved stash & completed rectangle area code**
+14. **Committed & pushed**
+
+#### 🔁 Pull Requests
+15. **Created PRs to `dev` from both branches**
+16. **Requested review and got approval**
+17. **Merged both features to `dev`**
+18. **Ceated PR to `master` from `dev`**
+19. **Requested review and got approval**
+20. **Merged `dev` to `master`**
+---
+
 ## **🚀 How to Run**
 
 ### Q1. CalculatorPlus App
@@ -83,4 +120,9 @@ python app.py
 2. Navigate to the **LFS** directory 
 3. Able to find **Large binary file** as *testFile.zip*
 
+### Q3. Geometry Calculator
+Navigate to the **GeometryCalculator** directory and run:
+```bash
+python app.py
+```
 ---
