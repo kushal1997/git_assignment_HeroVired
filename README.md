@@ -126,3 +126,68 @@ Navigate to the **GeometryCalculator** directory and run:
 python app.py
 ```
 ---
+
+
+## 📁 Folder Structure  
+
+```
+git_assignment_HeroVired/
+│─── README.md
+│
+├─── CalculatorPlus
+│       app.py
+│
+├─── GeometryCalculator
+│       app.py
+│
+└─── LFS
+```
+
+> 📌 Note: `lfs` branch is kept **separated and not mergerd** with `master` to isolate  Git LFS functionality as a separate demonstration.
+
+---
+
+## 🔍 Git Commands Used
+
+``` bash
+
+# General Commands
+git init
+git clone
+git add .
+git commit -m "message"
+git push origin <branch_name>
+git pull origin <branch_name>
+
+# Branching & Merging
+git checkout -b <branch_name>
+git merge <branch_name>
+
+# Stash
+git stash
+git stash list
+git stash apply
+
+# LFS
+git lfs install
+git lfs track "*.zip"
+
+# Tagging
+git tag v1.0
+git push tag
+```
+
+---
+
+## 🙌 Collaboration
+
+- Added **[@anish2shukla](https://github.com/anish2shukla)** and **[@KevinKoreth](https://github.com/KevinKoreth)** as a collaborator to the repository as per the assignment requirement.
+- Provided multiple code reviews to **[@anish2shukla](https://github.com/anish2shukla)** and **[@KevinKoreth](https://github.com/KevinKoreth)** on their GitHub repository.
+
+---
+
+## 👤 Author
+
+- **U KUSHAL RAO**
+- GitHub: [@kushal1997](https://github.com/kushal1997)
+- Email: kushalrao103@gmail.com
