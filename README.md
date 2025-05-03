@@ -40,13 +40,11 @@ This repository `git_assignment_HeroVired` was created as part of a graded assig
 10. **Square Root Logic Added**
 11. **Bug Reported**: In `divide()` method
 12. **Fix Applied in `dev`**: 
-```python
-def divide(self, a, b):
-    if b == 0:
-        raise ValueError("Cannot divide by zero.")
-    return a / b
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8565ea85-589c-44b5-999e-bad3eda4ec89" alt="Zero error for divide function" width="500"/>
+</p>
 
-```
+
 13.  **Pull Request Raised**: `feature/sqrt` ➝ `main`
 14.  **Peer Review**: Review requested, feedback applied
 15.  **Merged** `feature/sqrt` ➝ `dev`, tested
@@ -126,7 +124,19 @@ Navigate to the **GeometryCalculator** directory and run:
 python app.py
 ```
 ---
+## 📸 Screenshots of outputs
 
+### 1. Arithmetic Operations and Square Root Output
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9ff2fdc9-c4a7-4db6-b463-567b21b82d66" alt="Zero error for divide function" width="500"/>
+</p>
+
+### 2. Geometry Calculator Output
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3bd708f5-3cf6-42fd-86f3-40ed3f46336a" alt="Zero error for divide function" height="70"/>
+</p>
+
+---
 
 ## 📁 Folder Structure  
 
@@ -143,7 +153,7 @@ git_assignment_HeroVired/
 └─── LFS
 ```
 
-> 📌 Note: `lfs` branch is kept **separated and not mergerd** with `master` to isolate  Git LFS functionality as a separate demonstration.
+> 📌 Note: `lfs` branch is kept **separated and not merged** with `master` to isolate  Git LFS functionality as a separate demonstration.
 
 ---
 
@@ -181,7 +191,7 @@ git push tag
 
 ## 🙌 Collaboration
 
-- Added **[@anish2shukla](https://github.com/anish2shukla)** and **[@KevinKoreth](https://github.com/KevinKoreth)** as a collaborator to the repository as per the assignment requirement.
+- Added **[@anish2shukla](https://github.com/anish2shukla)** and **[@KevinKoreth](https://github.com/KevinKoreth)** as collaborators to the repository as per the assignment requirement.
 - Provided multiple code reviews to **[@anish2shukla](https://github.com/anish2shukla)** and **[@KevinKoreth](https://github.com/KevinKoreth)** on their GitHub repository.
 
 ---
